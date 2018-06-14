@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_account_balance_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/projects"
+            android:icon="@drawable/ic_business_center_black_24dp"
+            android:title="Projects" />
+        <item
+            android:id="@+id/updates"
+            android:icon="@drawable/ic_gavel_black_24dp"
+            android:title="Construction Updates" />
+        <item
+            android:id="@+id/notices"
+            android:icon="@drawable/ic_beenhere_black_24dp"
+            android:title="Notices" />
+        <item
+            android:id="@+id/ehs"
+            android:icon="@drawable/ic_gavel_black_24dp"
+            android:title="EHS" />
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/ic_info_outline_black_24dp"
+            android:title="About Us" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/contact"
+                android:icon="@drawable/ic_call_black_24dp"
+                android:title="Contact Us" />
+            <item
+                android:id="@+id/feedback"
+                android:icon="@drawable/ic_hearing_black_24dp"
+                android:title="Feedback" />
+        </menu>
+    </item>
+
+</menu>
